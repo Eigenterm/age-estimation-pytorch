@@ -1,0 +1,29 @@
+cd C:\Users\11323\Desktop\design\age-estimation-pytorch-master
+
+pip install dlib-19.17.99-cp37-cp37m-win_amd64.whl
+
+# pip install -r requirements.txt
+
+pip install future==0.17.1
+
+pip install imgaug==0.2.9
+
+pip install pandas==0.24.2
+
+pip install yacs==0.1.6
+
+pip install pretrainedmodels==0.7.4
+
+
+
+pip install torch==1.4.0 -f https://download.pytorch.org/whl/torch_stable.html
+
+python demo.py -h
+
+python demo.py --img_dir \input\me.jpg --output_dir \output\out.jpg
+
+python demo.py --img_dir me.jpg --output_dir out.jpg
+
+python demo.py --img_dir input --output_dir output
+
+python demo.py --img_dir input --output_dir output
